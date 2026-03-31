@@ -2,31 +2,237 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
+    top: 70%
     right: 10%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 34%
+    right: 80%
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 46%
+    right: 20%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: cover
+    background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
-.banner-interno__titulo__icono i
-  color: $color-primario
-
+  width: 400px !important 
+  
 figcaption
   font-weight: normal
+.tarjeta-cajon-secundario
+  background-color:#9ECFFF
+.cajon.color-primario
+  background-color: #DFEFFF
+
+.bloque-texto-g.color-primario
+  background-color: #19538D
+
+.tabs-b__tab
+  background-color: #9C2424
+  color: white
+.fa-chevron-right, .fa-chevron-left
+  color: #9C2424 !important
+.tabs-b__tab--active
+  background-color: #DFEFFF
+  color: black
+
+.BMG1
+  background: linear-gradient(180deg, #fff, #E5F2FF, #fff)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.BG02
+  background-color: #DFEFFF
+.tarjeta.BG03
+  background-color: #F1E2FF !important
+  border-radius: 0px
+.tarjeta.BG033
+  background-color: #F1E2FF !important
+
+.tarjeta.BG04
+  background-color: #EEE1E1 !important
+
+.tarjeta--tabla
+  background-color: #DFEFFF
+.tarjeta--tabla:nth-child(even) 
+  background-color: #F1E2FF
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #DFEFFF
+  
+.linea-tiempo-d__item__content__title
+  background-color: #EEE7E7
+.linea-tiempo-d__item__content__slot
+  background-color:#DFEFFF
+    
+.tarjeta--azul
+  background-color: #EEE1E1
+.acordion__activo
+  background-color: #DFEFFF !important
+.tarjeta--gris.linea-tiempo-d__item__number
+  background-color: $color-acento-botones
+  color: white !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color:#DFEFFF
+  color: black !important
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #DFEFFF
+  color: black !important
+.text-codigo
+  color: #4dd0e1 !important
+.tabs-a__tab
+  background-color: #EEE1E1
+
+.tarjeta.color-acento-botones--borde
+  background-color: #DFEFFF
+  border: solid 4px #DFEFFF
+
+.BG03
+  background-color: #EEE1E1 !important
+
+// versión escritorio/movil
+@media (min-width:1400px)
+  .movil2
+    display: inline
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .tabla-a table
+    min-width: 0px
+  .desktop 
+    display: none
+@media (max-width: 1024px)
+  .movil 
+    display: inline
+  .tabla-a table
+    min-width: 0pxº
+  .desktop 
+    display: none
+.tabla-a.color-acento-botones thead
+  border-color: #FFD470
+.titulo
+  background-color:#FFEBBE
+  color: black
+  border-radius: 50px
+  height: 31px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  
+.titulo h5
+  margin-right: 23px
+  margin-bottom: 0px
+
+.titulo img
+  width: 45px
+  height: 45px
+  margin-right: 10px
+  margin-left: -10px
+
+table thead
+  background-color:#FFEBBE !important
+.fas.fa-computer
+  color: #FBB03F !important
+
+//Listas
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, li i.lista-ul__vineta
+  display: flex
+  align-items: flex-start
+
+.tarjeta--BMG04
+  background-image: url("../assets/curso/Temas/tema3/BG04.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  
+.tarjeta--BMG05
+  background-image: url("../assets/curso/Temas/tema3/BG05.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  
+.tarjeta--BMG06
+  background-image: url("../assets/curso/Temas/tema3/bgslyderf.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.tarjeta-blanca
+  background-color: #FFFFFF !important
+
+.BG06
+  background-color: #FFFFFF !important
+
+.tabla-b tr:nth-child(even), .tabla-c tr:nth-child(even) 
+  background-color: #DFEFFF
+
+.acordion__accion__btn--b, .acordion__accion__btn--a
+  border: 1px solid #9C2424
+  background-color: #9C2424
+
+
+.titulo
+  background-color:#D2F9EF
+  color: black
+  border-radius: 50px
+  height: 31px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  
+.titulo h5
+  margin-right: 23px
+  margin-bottom: 0px
+
+.titulo img
+  width: 45px
+  height: 45px
+  margin-right: 10px
+  margin-left: -10px
+
+.code-comment
+  color: #68FBD2 !important
+
+.barra-avance__boton--regresar span 
+    color: #FFFFFF !important

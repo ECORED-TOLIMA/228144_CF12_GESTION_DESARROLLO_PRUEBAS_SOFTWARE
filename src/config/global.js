@@ -1,8 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'Calidad de <em>software</em>: evaluación, aprendizaje y mejora continua',
+    Description:
+      'Este componente desarrolla la evaluación de la calidad del <em>software</em>, mediante control de calidad, herramientas de pruebas y documentación de hallazgos. Incluye la verificación de requisitos no funcionales como seguridad, desempeño y confiabilidad, así como la gestión de lecciones aprendidas y la formulación de planes de mejora con acciones correctivas, preventivas y seguimiento.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +37,93 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Evaluación de calidad del <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Control de calidad',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Herramientas de evaluación',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Documentación de hallazgos',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Evaluación de requisitos no funcionales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo:
+          'Gestión del conocimiento en el desarrollo de <em>software</em>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Modelos de gestión del conocimiento',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Lecciones aprendidas en proyectos de <em>software</em>',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Recomendaciones de buenas prácticas',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Herramientas para la gestión del conocimiento',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Planes de mejora',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Elaboración del plan de mejora',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Acciones correctivas',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Acciones preventivas',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Responsables del plan de mejora',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Verificación y seguimiento',
+            hash: 't_4_5',
+          },
+        ],
       },
     ],
     subMenu: [
