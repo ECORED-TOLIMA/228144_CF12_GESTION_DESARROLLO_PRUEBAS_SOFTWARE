@@ -7,15 +7,14 @@
         span 2
       h1 Evaluación de requisitos no funcionales
     br
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/Temas/tema2/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p Definen el "cómo" opera el sistema, a diferencia de los requisitos funcionales que dictan el "qué" hace. En el desarrollo de soluciones de software para la gestión estratégica de información, la calidad no es solo el resultado, sino la robustez de la arquitectura que lo soporta.
-    br
-    p.mb A continuación, se detallan los criterios técnicos para evaluar estos requisitos:
-    br
+  
+    p.mb-4 A continuación, se detallan los criterios técnicos para evaluar estos requisitos:
     TabsA.color-acento-botones.mb-4
       .tarjeta.color-acento-botones--borde.p-4(titulo="Seguridad")
         .row.align-items-center
@@ -75,35 +74,35 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5  Verificación de calidad
+    .BMG1.px-5
+      p.mb-4 Marca cada criterio cumplido (□) durante la evaluación o revisión del sistema y se representa de la siguiente manera:
+      .row.justify-content-center.align-items-center
+        .col-10
+          .titulo-sexto.color-primario.mb-3
+            h5 Figura 1.
+            span Listado de verificación de calidad
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-10.desktop
+          figure
+            img(src="@/assets/curso/Temas/tema2/img9.svg" alt="Figura 1 que relaciona un listado de verificación de calidad en los procesos de la planificación de la calidad, el análisis de código, la usabilidad y el rendimiento, los procesos de prueba y verificación, así como los mecanismos de seguridad y fiabilidad del software.")
 
-    p.mb-4 Marca cada criterio cumplido (□) durante la evaluación o revisión del sistema y se representa de la siguiente manera:
-    .row.justify-content-center.align-items-center
-      .col-10
-        .titulo-sexto.color-primario.mb-3
-          h5 Figura 1.
-          span Listado de verificación de calidad
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.desktop
-        figure
-          img(src="@/assets/curso/Temas/tema2/img9.png" alt="Figura 1 que relaciona un listado de verificación de calidad en los procesos de la planificación de la calidad, el análisis de código, la usabilidad y el rendimiento, los procesos de prueba y verificación, así como los mecanismos de seguridad y fiabilidad del software.")
-
-      .col-lg-10.movil
-        figure
-          img(src="@/assets/curso/Temas/tema2/img9_1.png" alt="Figura 1 que relaciona un listado de verificación de calidad en los procesos de la planificación de la calidad, el análisis de código, la usabilidad y el rendimiento, los procesos de prueba y verificación, así como los mecanismos de seguridad y fiabilidad del software.")
-    br
-    .row.justify-content-center
-      .col-lg-10
-        .tarjeta-cajon-secundario.p-4
-          .row.justify-content-center.align-items-center
-            .col-lg-1.d-none.d-lg-block
-              figure
-                img(src="@/assets/curso/Temas/tema2/img10.png" alt="Adornos flotantes")
-            .col-lg-11
-              p.mb-0 #[b Interpretación:]
-              p.mb-0 90-100 % = Excelente calidad.
-              p.mb-0 70-89 % = Buena calidad (revisar ítems pendientes).
-              p.mb-0 50-69 % = Calidad aceptable (plan de mejora requerido).
-              p.mb-0 < 50% = Calidad insuficiente (requiere trabajo significativo).
+        .col-lg-10.movil
+          figure
+            img(src="@/assets/curso/Temas/tema2/img9_1.svg" alt="Figura 1 que relaciona un listado de verificación de calidad en los procesos de la planificación de la calidad, el análisis de código, la usabilidad y el rendimiento, los procesos de prueba y verificación, así como los mecanismos de seguridad y fiabilidad del software.")
+      br
+      .row.justify-content-center
+        .col-lg-10
+          .tarjeta-cajon-secundario.p-4
+            .row.justify-content-center
+              .col-lg-1.d-none.d-lg-block
+                figure
+                  img(src="@/assets/curso/Temas/tema2/img10.png" alt="Adornos flotantes")
+              .col-lg-11
+                p.mb-0 #[b Interpretación:]
+                p.mb-0 90-100 % = Excelente calidad.
+                p.mb-0 70-89 % = Buena calidad (revisar ítems pendientes).
+                p.mb-0 50-69 % = Calidad aceptable (plan de mejora requerido).
+                p.mb-0 < 50% = Calidad insuficiente (requiere trabajo significativo).
 </template>
 
 <script>

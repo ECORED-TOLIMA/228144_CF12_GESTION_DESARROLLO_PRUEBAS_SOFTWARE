@@ -19,8 +19,8 @@
     .titulo-segundo.color-acento-contenido
       h2 1.1 Control de calidad
     .row.justify-content-center.align-items-start.mb-4
-      .col-lg-9
-        p.mb-4 Es el proceso sistemático de verificar que un producto final —ya sea un reporte automatizado, un dashboard o una macro— cumpla con las especificaciones técnicas y las necesidades reales del negocio.
+      .col-lg-9.order-2.order-lg-1
+        p Es el proceso sistemático de verificar que un producto final —ya sea un reporte automatizado, un dashboard o una macro— cumpla con las especificaciones técnicas y las necesidades reales del negocio.
         p.mb-4 La gestión de la calidad del #[i software] se fundamenta en tres pilares esenciales:
         .row
           .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-right")
@@ -42,7 +42,7 @@
             h5.text-center Calidad del proceso
             p.text-center.mb-0 Asegura la madurez del desarrollo, mediante modelos como CMMI o ISO 15504 (SPICE)
           
-      .col-lg-3.d-none.d-lg-block
+      .col-lg-3.order-1.order-lg-2
         figure
           img(src='@/assets/curso/Temas/tema1/img6.png', alt='Imagen decorativa lateral')
     .row.justify-content-center.mb-4
@@ -110,14 +110,14 @@
               figure
                 img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
             .col-11
-              p.mb-0 #[b Métrica de éxito] una prueba funcional es exitosa si el analista logra transformar datasets desorganizados en un dashboard interactivo que responda con exactitud a los requerimientos gerenciales en el tiempo estipulado.
+              p.mb-0 #[b Métrica de éxito]: una prueba funcional es exitosa si el analista logra transformar datasets desorganizados en un #[i dashboard] interactivo que responda con exactitud a los requerimientos gerenciales en el tiempo estipulado.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Herramientas de pruebas no funcionales
 
     p.mb-4 Mientras que las pruebas funcionales se centran en el "qué" hace el #[i software], las pruebas no funcionales evalúan el "cómo" lo hace. En el contexto de Excel avanzado, estas herramientas miden la robustez, el rendimiento y la experiencia del usuario (UX) frente a grandes volúmenes de datos.
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center
       .col-lg-3.col-6
         figure
           img(src="@/assets/curso/Temas/tema1/img11.png", alt="Imagen decorativa")
@@ -132,7 +132,7 @@
                     img(src="@/assets/curso/Temas/tema1/img12.png" alt="Icono rendimiento")
                 .col-lg-11
                   p.mb-0 Las pruebas de rendimiento e irrupción evalúan la estabilidad de la hoja de cálculo ante el crecimiento de la información. Se enfocan en la gestión de grandes volúmenes de datos y la optimización de fórmulas para evitar lentitud. Además, miden el tiempo de ejecución de macros para validar el ahorro de tiempo real frente a procesos manuales.
-            p En cuanto a las pruebas de usabilidad e interfaz de usuario (UX), estas garantizan que herramientas como el diseño de dashboards y la navegación interactiva con slicers sean fluidas. Es fundamental que el panel de control cuente con botones de la pestaña "programador" que tengan nombres claros para facilitar el trabajo de los destinatarios finales.
+            p En cuanto a las pruebas de usabilidad e interfaz de usuario (UX), estas garantizan que herramientas como el diseño de #[i dashboards] y la navegación interactiva con slicers sean fluidas. Es fundamental que el panel de control cuente con botones de la pestaña "programador" que tengan nombres claros para facilitar el trabajo de los destinatarios finales.
 
         .row.justify-content-center.mb-4
           .col-lg-12
@@ -153,7 +153,7 @@
             figure
               img(src="@/assets/curso/Temas/tema1/img14.png" alt="Icono seguridad")
 
-    .row.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
@@ -181,16 +181,16 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5  Herramientas de seguimiento de defectos
-    br
-    p.mb En la ingeniería de #[i software], un defecto es cualquier desviación entre el comportamiento esperado y el comportamiento real del sistema; es por ello, que el seguimiento de defectos es el proceso de identificar, registrar y priorizar estos fallos para asegurar la calidad del producto final.
-    br
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+
+    p.mb-4 En la ingeniería de #[i software], un defecto es cualquier desviación entre el comportamiento esperado y el comportamiento real del sistema; es por ello, que el seguimiento de defectos es el proceso de identificar, registrar y priorizar estos fallos para asegurar la calidad del producto final.
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/Temas/tema1/img15.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p Por su parte, el proceso de depuración (debugging) es el conjunto de técnicas fundamentales para encontrar la causa raíz de un fallo, mediante tres etapas clave: la identificación del comportamiento anómalo, el aislamiento del módulo o línea de código origen y la corrección lógica para evitar la regresión. Este ciclo se apoya en el seguimiento de defectos, un enfoque reactivo que permite el registro y la priorización de errores, según su impacto, desde fallos críticos en cálculos hasta detalles cosméticos, garantizando que cada desviación sea validada tras su reparación.
-    br
+
     .row.justify-content-center.mb-4
       .col-lg-9
         .tarjeta.BG03.p-4
@@ -206,10 +206,10 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Herramientas de análisis y métricas
-    br
-    p.mb En la ingeniería de #[i software], "lo que no se mide, no se puede mejorar". Las métricas proporcionan datos objetivos para evaluar la eficacia del proceso de desarrollo y la calidad del producto final.
-    br
-    .row.justify-content-center.align-items-center
+
+    p.mb-4 En la ingeniería de #[i software], "lo que no se mide, no se puede mejorar". Las métricas proporcionan datos objetivos para evaluar la eficacia del proceso de desarrollo y la calidad del producto final.
+
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-4
         figure
           img(src="@/assets/curso/Temas/tema1/img18.png", alt="alt")
@@ -221,15 +221,16 @@
               .row.justify-content-center.align-items-center
                 .col-12.col-md-12
                   p.mb-0 Por otro lado, la calidad externa se mide a través de métricas de eficiencia y rendimiento, las cuales reflejan el impacto real en el negocio, mediante el ahorro de tiempo operativo y la notable reducción del error humano tras la estandarización de procesos. Para visualizar estos resultados, se emplean herramientas de análisis de datos como dashboards de control de calidad y tablas dinámicas de seguimiento, complementadas con logs de auditoría que registran eventos y excepciones. Finalmente, la tasa de uso por parte de la gerencia confirma si la solución adoptada cumple con los objetivos de usabilidad y valor estratégico.
-    br
+
     p.mb Basado en lo anterior, la siguiente tabla presenta un conjunto de herramientas ampliamente utilizadas en la ingeniería de #[i software] para el análisis, la medición y el control de la calidad:
-    br
-    .row
-      .col-1
-      .col-10
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 2.
           span Herramientas de análisis y métricas de calidad del #[i software]
+    .row.justify-content-center.align-items-center
+      .col-lg-10
         .tabla-a.color-acento-contenido
           table
             thead
@@ -239,47 +240,58 @@
                 th Licencia
             tbody
               tr
-                td SonarQube
+                td
+                  .text-bold SonarQube
                 td Análisis estático de código, deuda técnica, calidad general.
                 td Open Source / Comercial
               tr
-                td JUnit / PyTest
+                td
+                  .text-bold JUnit / PyTest
                 td Pruebas unitarias para Java y Python respectivamente.
                 td Open Source
               tr
-                td Selenium WebDriver
+                td
+                  .text-bold Selenium WebDriver
                 td Automatización de pruebas funcionales de UI web.
                 td Open Source
               tr
-                td Apache JMeter
+                td
+                  .text-bold Apache JMeter
                 td Pruebas de rendimiento, carga y estrés.
                 td Open Source
               tr
-                td OWASP ZAP
+                td
+                  .text-bold OWASP ZAP
                 td Pruebas de seguridad y detección de vulnerabilidades.
                 td Open Source
               tr
-                td JaCoCo / Coverage.py
+                td
+                  .text-bold JaCoCo / Coverage.py
                 td Medición de cobertura de pruebas en Java y Python.
                 td Open Source
               tr
-                td Postman / Rest Assured
+                td
+                  .text-bold Postman / Rest Assured
                 td Pruebas funcionales de APIs REST.
                 td Freemium / Open Source
               tr
-                td PJenkins / GitHub Actions
+                td
+                  .text-bold PJenkins / GitHub Actions
                 td Integración continua (CI/CD) y automatización de pipelines.
                 td Open Source / Incluido
               tr
-                td Jira
+                td
+                  .text-bold Jira
                 td Seguimiento de defectos y gestión de proyectos ágiles.
                 td Comercial
               tr
-                td ESLint / Checkstyle
+                td
+                  .text-bold ESLint / Checkstyle
                 td Verificación de estilo y convenciones de código.
                 td Open Source
               tr
-                td New Relic / Grafana
+                td
+                  .text-bold New Relic / Grafana
                 td Monitoreo de rendimiento en producción.
                 td Freemium / Open Source
     separador

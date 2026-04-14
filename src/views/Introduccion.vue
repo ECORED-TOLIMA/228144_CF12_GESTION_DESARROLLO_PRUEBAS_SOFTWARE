@@ -20,7 +20,7 @@
         figure
           img(src="@/assets/curso/Temas/intro/img2.png", alt="alt")
       .col-lg-9
-        .cajon.color-primario.p-4
+        .BG02.p-4
           p.mb-4 Asimismo, el profundiza en la evaluación de requisitos no funcionales —seguridad, usabilidad, accesibilidad, portabilidad, tiempos de respuesta, adaptabilidad y confiabilidad— entendidos como factores determinantes para la estabilidad y sostenibilidad del #[i software] en producción. Complementariamente, se incorpora la gestión del conocimiento mediante la sistematización de lecciones aprendidas y recomendaciones técnicas y se establecen lineamientos para la formulación de planes de mejora que incluyan acciones correctivas, preventivas y de optimización, con responsables definidos y mecanismos de verificación y seguimiento. De esta manera, se consolida una visión integral de la calidad orientada no solo a detectar fallas, sino a fortalecer continuamente los procesos y el servicio de #[i software].
 
     p.mb-4 Para entender de mejor manera estas acciones iniciales, se invita a que acceda al siguiente video, el cual relaciona la temática a tratar durante este componente formativo:

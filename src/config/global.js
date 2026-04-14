@@ -145,11 +145,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -171,23 +166,127 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
-    },
-  ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Algoritmo',
+      significado:
+        'secuencia lógica y finita de pasos bien definidos que resuelven un problema o realizan una tarea específica.',
+    },
+    {
+      termino: 'Aseguramiento de la calidad (QA)',
+      significado:
+        'proceso proactivo y preventivo orientado a los procesos de desarrollo para evitar la aparición de defectos mediante estándares.',
+    },
+    {
+      termino: 'Calidad del software',
+      significado:
+        'grado en que un sistema satisface los requisitos especificados y las necesidades implícitas del usuario.',
+    },
+    {
+      termino: 'Caso de prueba',
+      significado:
+        'conjunto de condiciones o variables documentadas con resultados esperados para determinar si el software funciona correctamente.',
+    },
+    {
+      termino: 'Causa raíz',
+      significado:
+        'origen sistémico de un problema identificado mediante técnicas como los "5 Porqués", cuya eliminación evita la repetición del error.',
+    },
+    {
+      termino: 'Conocimiento explícito',
+      significado:
+        'saber formalizado y documentado en manuales, procedimientos o lecciones aprendidas, fácil de compartir y almacenar.',
+    },
+    {
+      termino: 'Conocimiento tácito',
+      significado:
+        'saber personal y difícil de formalizar, basado en experiencias, intuiciones y habilidades prácticas de los individuos.',
+    },
+    {
+      termino: 'Control de calidad (SQC)',
+      significado:
+        'proceso sistemático de verificar que el producto final (reporte, dashboard o macro) cumpla con las especificaciones técnicas.',
+    },
+    {
+      termino: 'Depuración (Debugging)',
+      significado:
+        'conjunto de técnicas para identificar, analizar y corregir errores o bugs en el código de un programa.',
+    },
+    {
+      termino: 'Hallazgo',
+      significado:
+        'registro formal de cualquier anomalía, vulnerabilidad o área de mejora identificada durante una evaluación de calidad.',
+    },
+    {
+      termino: 'Lecciones aprendidas',
+      significado:
+        'conocimiento adquirido de éxitos y errores durante un proyecto, sistematizado para mejorar trabajos futuros.',
+    },
+    {
+      termino: 'Métrica',
+      significado:
+        'dato objetivo y cuantificable utilizado para evaluar la eficacia del desarrollo y la calidad del producto final.',
+    },
+    {
+      termino: 'No conformidad',
+      significado:
+        'incumplimiento de un requisito preestablecido que activa la necesidad de acciones correctivas en un plan de mejora.',
+    },
+    {
+      termino: 'Plan de mejora',
+      significado:
+        'instrumento de gestión que formaliza acciones, responsables y plazos para superar brechas de calidad.',
+    },
+    {
+      termino: 'Usabilidad',
+      significado:
+        'atributo que evalúa la facilidad con la que el usuario final interactúa con la solución de software.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alexander, M. & Kusleika, D. (2019). Excel 2019 power programming with VBA. John Wiley & Sons.',
+      link: '',
+    },
+    {
+      referencia:
+        'International Organization for Standardization. (2015). Quality management systems — Requirements (ISO 9001:2015).',
+      link: '',
+    },
+    {
+      referencia:
+        'International Organization for Standardization. (2023). Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models (ISO/IEC 25010:2023).',
+      link: '',
+    },
+    {
+      referencia:
+        'Jelen, B. (2020). Excel Dynamic Arrays Straight to the Point (2nd ed.). Tickling Keys, Inc.',
+      link: '',
+    },
+    {
+      referencia:
+        'Jelen, B. & Syrstad, T. (2022). Microsoft Excel VBA and Macros (Office 2021 and Microsoft 365). Microsoft Press.',
+      link: '',
+    },
+    {
+      referencia:
+        'McFedries, P. (2019). Microsoft Excel 2019 formulas and functions. Microsoft Press.',
+      link: '',
+    },
+    {
+      referencia:
+        'Nonaka, I. & Takeuchi, H. (1995). The knowledge-creating company: How Japanese companies create the dynamics of innovation. Oxford University Press.',
+      link: '',
+    },
+    {
+      referencia:
+        'Probst, G., Raub, S. & Romhardt, K. (2001). Gestión del conocimiento: los componentes del éxito. Prentice Hall.',
+      link: '',
+    },
+    {
+      referencia:
+        'Winston, W. (2016). Microsoft Excel data analysis and business modeling. Microsoft Press.',
       link: '',
     },
   ],
@@ -196,14 +295,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Diana Rocío Possos Beltrán',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -211,9 +311,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Solanlly Sánchez Melo',
+          cargo: 'Experta temática',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -221,19 +326,39 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Veimar Celis Meléndez',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Desarrollador <em>full stack</em>',
+        },
+        {
+          nombre: 'Francisco José Vásquez Suárez',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Desarrollador <em>full stack</em>',
+        },
+        {
+          nombre: 'Manuel Felipe Echavarria Orozco',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Desarrollador <em>full stack</em>',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -241,14 +366,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'María Fernanda Pineda Mora',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
