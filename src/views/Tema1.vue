@@ -217,7 +217,7 @@
             .col-md.cajon.color-primario.p-4
               .row.justify-content-center.align-items-center
                 .col-12.col-md-12
-                  p.mb-0 Por otro lado, la calidad externa se mide a través de métricas de eficiencia y rendimiento, las cuales reflejan el impacto real en el negocio, mediante el ahorro de tiempo operativo y la notable reducción del error humano tras la estandarización de procesos. Para visualizar estos resultados, se emplean herramientas de análisis de datos como dashboards de control de calidad y tablas dinámicas de seguimiento, complementadas con logs de auditoría que registran eventos y excepciones. Finalmente, la tasa de uso por parte de la gerencia confirma si la solución adoptada cumple con los objetivos de usabilidad y valor estratégico.
+                  p.mb-0 Por otro lado, la calidad externa se mide a través de métricas de eficiencia y rendimiento, las cuales reflejan el impacto real en el negocio, mediante el ahorro de tiempo operativo y la notable reducción del error humano tras la estandarización de procesos. Para visualizar estos resultados, se emplean herramientas de análisis de datos como dashboards de control de calidad y tablas dinámicas de seguimiento, complementadas con #[i logs] de auditoría que registran eventos y excepciones. Finalmente, la tasa de uso por parte de la gerencia confirma si la solución adoptada cumple con los objetivos de usabilidad y valor estratégico.
 
     p.mb Basado en lo anterior, la siguiente tabla presenta un conjunto de herramientas ampliamente utilizadas en la ingeniería de #[i software] para el análisis, la medición y el control de la calidad:
 
@@ -329,7 +329,7 @@
                 i.fas.fa-computer
                 p.mb-0 #[b Evidencia visual]
                   br
-                  | Capturas de pantalla o logs que demuestren el estado del error.
+                  | Capturas de pantalla o #[i logs] que demuestren el estado del error.
             
         .col-lg-3.col-6.mb-4.mb-lg-0.order-1.order-lg-2
           figure

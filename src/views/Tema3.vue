@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Gestión del conocimiento en el desarrollo de software
+      h1 Gestión del conocimiento en el desarrollo de #[i software]
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.col-md-5.mb-4.mb-md-0
         figure
@@ -17,7 +17,7 @@
               figure
                 img(src="@/assets/curso/Temas/tema3/img2.png", alt="Icono", style="width: 70px")
             .col-12.col-sm-10.col-lg-11
-              p.mb-0 La Gestión del Conocimiento (GC) es el conjunto de procesos y prácticas para identificar, capturar, organizar, almacenar, compartir y aplicar el conocimiento generado en una organización. En proyectos de software, es clave para evitar repetir errores, acelerar el aprendizaje y mejorar continuamente la calidad del trabajo del equipo.
+              p.mb-0 La Gestión del Conocimiento (GC) es el conjunto de procesos y prácticas para identificar, capturar, organizar, almacenar, compartir y aplicar el conocimiento generado en una organización. En proyectos de #[i software], es clave para evitar repetir errores, acelerar el aprendizaje y mejorar continuamente la calidad del trabajo del equipo.
     p.mb La gestión del conocimiento se divide principalmente en dos categorías: 
     .row.justify-content-center.mb-4
       .col-10.col-md-6.col-lg-5.mb-4.mb-md-0(data-aos="fade-right")
@@ -177,7 +177,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.2 Lecciones aprendidas en proyectos de #[i software]
 
-    p.mb-0 Las lecciones aprendidas son el conocimiento adquirido durante la ejecución de un proyecto, tanto de los éxitos como de los errores y dificultades. Su correcta documentación y aplicación en proyectos futuros es uno de los activos más valiosos de una organización de software.
+    p.mb-0 Las lecciones aprendidas son el conocimiento adquirido durante la ejecución de un proyecto, tanto de los éxitos como de los errores y dificultades. Su correcta documentación y aplicación en proyectos futuros es uno de los activos más valiosos de una organización de #[i software].
 
     .tarjeta--BMG06.px-5
       .row.justify-content-center.align-items-center.py-5.position-relative
@@ -237,7 +237,7 @@
               h4.text-center Responsable
               p.text-center Del registro y fecha.
     .BMG1.px-5
-      p.mb-4 La siguiente tabla presenta un conjunto de lecciones aprendidas obtenidas de experiencias recurrentes en proyectos de desarrollo de software. Su sistematización permite identificar problemas frecuentes y establecer recomendaciones prácticas para mejorar la gestión y ejecución de futuros proyectos:
+      p.mb-4 La siguiente tabla presenta un conjunto de lecciones aprendidas obtenidas de experiencias recurrentes en proyectos de desarrollo de #[i software]. Su sistematización permite identificar problemas frecuentes y establecer recomendaciones prácticas para mejorar la gestión y ejecución de futuros proyectos:
     
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
@@ -284,7 +284,7 @@
                     .text-bold Comunicación deficiente en el equipo
                   td Equipo
                   td La falta de comunicación llevó a dos desarrolladores a implementar la misma funcionalidad de formas incompatibles, causando conflictos de integración costosos.
-                  td Daily standups reales y eficientes. Canales de comunicación estructurados. Documentar decisiones técnicas importantes en registros ADR.
+                  td #[i Daily standups] reales y eficientes. Canales de comunicación estructurados. Documentar decisiones técnicas importantes en registros ADR.
                 tr
                   td
                     .text-bold Ausencia de control de versiones adecuado
