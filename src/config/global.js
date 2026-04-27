@@ -178,14 +178,14 @@ export default {
         'proceso proactivo y preventivo orientado a los procesos de desarrollo para evitar la aparición de defectos mediante estándares.',
     },
     {
-      termino: 'Calidad del software',
+      termino: 'Calidad del <em>software</em>',
       significado:
         'grado en que un sistema satisface los requisitos especificados y las necesidades implícitas del usuario.',
     },
     {
       termino: 'Caso de prueba',
       significado:
-        'conjunto de condiciones o variables documentadas con resultados esperados para determinar si el software funciona correctamente.',
+        'conjunto de condiciones o variables documentadas con resultados esperados para determinar si el <em>software</em> funciona correctamente.',
     },
     {
       termino: 'Causa raíz',
@@ -208,7 +208,7 @@ export default {
         'proceso sistemático de verificar que el producto final (reporte, dashboard o macro) cumpla con las especificaciones técnicas.',
     },
     {
-      termino: 'Depuración (Debugging)',
+      termino: 'Depuración (<em>Debugging</em>)',
       significado:
         'conjunto de técnicas para identificar, analizar y corregir errores o bugs en el código de un programa.',
     },
@@ -240,7 +240,7 @@ export default {
     {
       termino: 'Usabilidad',
       significado:
-        'atributo que evalúa la facilidad con la que el usuario final interactúa con la solución de software.',
+        'atributo que evalúa la facilidad con la que el usuario final interactúa con la solución de <em>software</em>.',
     },
   ],
   referencias: [

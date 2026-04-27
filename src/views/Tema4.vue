@@ -121,11 +121,11 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9
         .tarjeta.BG03.p-5
-          .row.justify-content-center.align-items-center
-            .col-lg-1.d-none.d-lg-block
+          .row
+            .col-auto.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/Temas/tema4/img11.svg', alt='')   
-            .col-lg-11
+            .col-lg-10
               p.mb-0 La siguiente tabla presenta una plantilla estándar para la elaboración y gestión del plan de mejora. Su estructura permite registrar de forma ordenada cada acción, asegurar la trazabilidad entre hallazgos, causas y soluciones, y facilitar el seguimiento, control y evaluación de resultados mediante responsables, indicadores y evidencias objetivas:
                  
       .col-lg-3.d-none.d-lg-block
@@ -210,7 +210,7 @@
                 td
                   .text-bold Indicador de éxito
                 td KPI que confirma el cumplimiento.
-                td Cobertura ≥ 70 % en sprint review.
+                td Cobertura ≥ 70 % en #[i sprint review].
               tr
                 td
                   .text-bold Estado
@@ -232,19 +232,19 @@
           div(numero="1" titulo="Problema")
             p Alta tasa de defectos en producción.
               p.mb-1 ° ¿Por qué hay defectos en producción? Porque el código no fue probado suficientemente antes del despliegue.
-              p.mb-1 ° ¿Por qué no fue probado? Porque no había tiempo, los sprints se comprimieron.
+              p.mb-1 ° ¿Por qué no fue probado? Porque no había tiempo, los #[i sprints] se comprimieron.
               p.mb-1 ° ¿Por qué se comprimieron? Porque las estimaciones iniciales fueron muy optimistas.
               p.mb-1 ° ¿Por qué fueron optimistas? Porque no se usaron datos históricos de velocidad del equipo.
               p.mb-1 ° ¿Por qué no se usaron datos históricos? Porque no existía un registro sistemático de métricas de velocidad. ← Causa raíz
           div(numero="2" titulo="Acción correctiva resultante")
-            p Implementar tablero de métricas de velocidad en Jira y usarlo obligatoriamente en la planificación de cada sprint.
+            p Implementar tablero de métricas de velocidad en Jira y usarlo obligatoriamente en la planificación de cada #[i sprint].
               p.mb-1 ° Responsable: Scrum master. 
-              p.mb-1 ° Fecha límite: próxima planificación de sprint.
+              p.mb-1 ° Fecha límite: próxima planificación de #[i sprint].
 
           div(numero="3" titulo="Error frecuente")
             p Confundir síntomas con causas raíz.
               p.mb-1 ° “El sistema tiene errores” es un síntoma. 
-              p.mb-1 ° “No hay proceso formal de revisión de código antes del merge” es una causa raíz accionable. 
+              p.mb-1 ° “No hay proceso formal de revisión de código antes del #[i merge]” es una causa raíz accionable. 
               p.mb-1 ° El plan debe atacar siempre la causa raíz.
             
       .col-7.col-lg-4
@@ -292,31 +292,31 @@
                   .text-bold AC-001
                 td Alta tasa de defectos en producción (5 bugs/KLOC).
                 td Sin proceso formal de revisión de código ni pruebas automatizadas.
-                td Implementar code review obligatorio (mínimo 1 revisor) y pipeline CI con pruebas unitarias antes de cada merge a rama principal.
+                td Implementar #[i code review] obligatorio (mínimo 1 revisor) y #[i pipeline] CI con pruebas unitarias antes de cada #[i merge] a rama principal.
                 td Alta
                 td 30 días
               tr
                 td
                   .text-bold AC-002
-                td Retrasos recurrentes en entregas de sprint.
+                td Retrasos recurrentes en entregas de #[i sprint].
                 td Estimaciones sin base histórica — no se usaban datos de velocidad real del equipo.
-                td Implementar tablero de métricas de velocidad en Jira y usar Planning Poker con datos históricos en cada planificación de sprint.
+                td Implementar tablero de métricas de velocidad en Jira y usar Planning Poker con datos históricos en cada planificación de #[i sprint].
                 td Alta
-                td Próximo sprint
+                td Próximo #[i sprint]
               tr
                 td
                   .text-bold AC-003
                 td Vulnerabilidades de seguridad críticas en producción.
                 td Sin análisis de seguridad integrado en el pipeline de desarrollo.
-                td Integrar OWASP ZAP y análisis estático de seguridad (SonarQube) en el CI/CD. Sin green en seguridad, no hay deploy a producción.
+                td Integrar OWASP ZAP y análisis estático de seguridad (SonarQube) en el CI/CD. Sin #[i green] en seguridad, no hay #[i deploy] a producción.
                 td Crítica
                 td 15 días
               tr
                 td
                   .text-bold AC-004
-                td Pérdida de código en conflictos de merge.
-                td Sin estrategia de ramas definida ni política de commits del equipo.
-                td Adoptar GitHub Flow: main protegido + feature branches + pull requests obligatorios. Capacitar al equipo en sesión de 2 horas.
+                td Pérdida de código en conflictos de #[i merge].
+                td Sin estrategia de ramas definida ni política de #[i commits] del equipo.
+                td Adoptar GitHub Flow: #[i main] protegido + #[i feature branches] + #[i pull requests] obligatorios. Capacitar al equipo en sesión de 2 horas.
                 td Media
                 td 1 semana
               tr
@@ -326,7 +326,7 @@
                 td La documentación no era parte del proceso ni del Definition of Done.
                 td Actualizar Definition of Done: ninguna historia se cierra sin README actualizado y ADR si hubo decisión arquitectónica.
                 td Media
-                td Próximo sprint
+                td Próximo #[i sprint]
    
     p.mb-4 Se detalla una diferencia clave:  
  
@@ -338,12 +338,12 @@
               i.fas.fa-computer
               p.mb-0 #[b Corrección]
                 br 
-                | Resolves the problem. #[i Example]: "se arregló el #[i bug]".
+                | Resuelve el problema puntual "se arregló el #[i bug]".
             li
               i.fas.fa-computer
               p.mb-0 #[b Acción correctiva]
                 br 
-                | Elimina lo que causó el #[i bug] sistemáticamente. #[i Example]: "se implementó revisión de código obligatoria y pruebas de regresión automatizadas para evitar que este tipo de error vuelva a llegar a producción".
+                | Elimina lo que causó el #[i bug] sistemáticamente "se implementó revisión de código obligatoria y pruebas de regresión automatizadas para evitar que este tipo de error vuelva a llegar a producción".
       .col-lg-3.d-none.d-lg-block
           figure
             img.mx-auto.d-block(src='@/assets/curso/Temas/tema4/img16.png', alt='Ilustración de persona trabajando con engranajes y computadoras')
@@ -408,7 +408,7 @@
                 td #[b Base de análisis]
                 td Causa raíz del problema ocurrido.
                 td Análisis de riesgos y lecciones aprendidas.
-                td Benchmarking y mejores prácticas.
+                td #[i Benchmarking] y mejores prácticas.
               tr
                 td #[b Objetivo]
                 td Eliminar causa para que no se repita.
@@ -422,9 +422,8 @@
               tr
                 td #[b Ejemplo concreto]
                 td Automatizar pruebas tras fallo en producción.
-                td Checklist de seguridad pre-lanzamiento.
+                td #[i Checklist] de seguridad pre-lanzamiento.
                 td Implementar DevOps para acelerar CI/CD.
-    br
     .row
       .col-1
       .col-10
@@ -463,7 +462,7 @@
                 td Mejoramiento
                 td AM-001
                 td El despliegue manual toma 3 horas y genera errores humanos frecuentes.
-                td #[i Pipeline] CI/CD completo con GitHub Actions: despliegue automático a #[i staging] en cada #[i merge] + producción con aprobación manual.
+                td #[i Pipeline] CI/CD completo con GitHub #[i Actions]: despliegue automático a #[i staging] en cada #[i merge] + producción con aprobación manual.
                 td Reduce despliegue de 3 horas a 8 minutos, elimina errores manuales.
               tr
                 td Mejoramiento
@@ -477,7 +476,6 @@
                 td Las retrospectivas no generan mejoras por falta de seguimiento de compromisos.
                 td Tablero de “Compromisos de Retrospectiva” en Notion: cada ítem con responsable, fecha y evidencia. Revisión en el siguiente #[i sprint review].
                 td Convierte retrospectivas en motor real de mejora continua.
-    br
     .row.justify-content-center
           .col-lg-10
             .tarjeta-cajon-secundario.p-4
@@ -490,12 +488,11 @@
     separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.4 Responsables del plan de mejora
-    br
     p.mb-4 Asignar responsables con claridad es uno de los factores más críticos para el éxito de un plan de mejora. Toda acción sin un responsable nominado tiene probabilidad cercana a cero de ejecutarse. La matriz RACI define con precisión quién hace qué (roles) de la siguiente manera:
     .row.justify-content-center
       .col-lg-10
         .d-none.d-lg-block
-          ImagenInfografica.color-primario
+          ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/Temas/tema4/img18.svg', alt='Infografía de matriz RACI')
@@ -509,11 +506,11 @@
               .h5.mb-2 A — Accountable
               p Quien responde por el resultado final. Solo puede haber uno por acción. Aprueba el trabajo del Responsible y rinde cuentas ante la dirección.
 
-            .tarjeta.color-secundario.p-3(x="16%" y="71%" numero="+")
+            .tarjeta.color-secundario.p-3(x="15%" y="75%" numero="+")
               .h5.mb-2 C — Consulted
               p A quien se consulta antes o durante la ejecución. Provee criterios especializados. Comunicación bidireccional.
             
-            .tarjeta.color-secundario.p-3(x="84%" y="71%" numero="+")
+            .tarjeta.color-secundario.p-3(x="84%" y="75%" numero="+")
               .h5.mb-2 I — Informed
               p A quien se informa del avance y resultados. Comunicación unidireccional. No participa en la ejecución.
         .d-block.d-lg-none
@@ -644,7 +641,7 @@
         figure
           picture
             source(media="(min-width: 992px)" srcset="@/assets/curso/Temas/tema4/img21.svg")
-            img(src="@/assets/curso/Temas/tema4/img21_1.svg" alt="Adornos flotantes")
+            img(src="@/assets/curso/Temas/tema4/img21_1.svg" alt="Figura 2 que presenta la distribución de responsabilidades y funciones de los principales roles involucrados en el plan de mejora de software, incluyendo al líder de proyecto, arquitecto de software, desarrollador senior, desarrollador junior, QA / Tester y cliente, y su contribución a la definición, ejecución, seguimiento y validación de las acciones de mejora.")
 
     .row.justify-content-center
       .col-lg-10

@@ -53,7 +53,7 @@
     
     p.mb-0 Para que esta información sea útil, debe seguir un ciclo del conocimiento continuo que comienza con la creación y captura de nuevas experiencias, seguido de una organización estructurada que permita encontrarlas fácilmente. Finalmente, el proceso se completa al compartir, aplicar y evaluar dicho conocimiento, asegurando que se utilice para resolver problemas, tomar mejores decisiones y mejorar constantemente los procesos internos de la organización.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.1 Modelos de gestión del conocimiento
     p.mb-4 La gestión del conocimiento se ha consolidado como un pilar estratégico para las organizaciones que buscan aprender, innovar y sostener ventajas competitivas en entornos complejos y cambiantes. Para comprender cómo el conocimiento se crea, circula y se aprovecha de manera sistemática, diversos autores han propuesto modelos conceptuales y operativos que orientan su gestión. Es así, como se presentan dos de los enfoques más reconocidos y complementarios:
 
@@ -92,7 +92,7 @@
                 td
                   .text-bold Externalización (T→E)
                 td Tácito a Explícito. Convertir experiencias y saber-hacer en documentos formales.
-                td Redactar lecciones aprendidas, crear wikis técnicas, documentar ADR, grabar tutoriales.
+                td Redactar lecciones aprendidas, crear #[i wikis] técnicas, documentar ADR, grabar tutoriales.
               tr
                 td
                   .text-bold Combinación (E→E)
@@ -133,19 +133,19 @@
                   .text-bold 02
                 td
                   .text-bold Adquisición
-                td Obtener conocimiento externo: capacitaciones, consultoría, benchmarking con otras organizaciones, incorporación de expertos.
+                td Obtener conocimiento externo: capacitaciones, consultoría, #[i benchmarking] con otras organizaciones, incorporación de expertos.
               tr
                 td
                   .text-bold 03
                 td
                   .text-bold Desarrollo
-                td Crear nuevo conocimiento interno: I+D, prototipos, spikes de investigación en Scrum, laboratorios de innovación.
+                td Crear nuevo conocimiento interno: I+D, prototipos, #[i spikes] de investigación en #[i Scrum], laboratorios de innovación.
               tr
                 td
                   .text-bold 04
                 td
                   .text-bold Distribución
-                td Compartir con quien lo necesita: talleres, comunidades de práctica, tech talks, rotación planificada de roles y proyectos.
+                td Compartir con quien lo necesita: talleres, comunidades de práctica, #[i tech talks], rotación planificada de roles y proyectos.
               tr
                 td 
                   .text-bold 05
@@ -162,7 +162,7 @@
                   .text-bold 07
                 td
                   .text-bold Medición
-                td Evaluar impacto: tiempo de onboarding, tasa de reúso, incidentes repetidos, satisfacción del equipo con los recursos disponibles.
+                td Evaluar impacto: tiempo de #[i onboarding], tasa de reúso, incidentes repetidos, satisfacción del equipo con los recursos disponibles.
   
     .row.justify-content-center
       .col-lg-10
@@ -174,8 +174,8 @@
             .col-9.col-md-10
               p.mb-0 El análisis conjunto de ambos modelos permite obtener una visión integral: comprender cómo emerge el conocimiento y, al mismo tiempo, cómo gestionarlo de forma efectiva dentro de las organizaciones.
     separador
-    .titulo-segundo.color-acento-contenido
-      h2 3.2 Lecciones aprendidas en proyectos de software
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 3.2 Lecciones aprendidas en proyectos de #[i software]
 
     p.mb-0 Las lecciones aprendidas son el conocimiento adquirido durante la ejecución de un proyecto, tanto de los éxitos como de los errores y dificultades. Su correcta documentación y aplicación en proyectos futuros es uno de los activos más valiosos de una organización de software.
 
@@ -260,25 +260,25 @@
                     .text-bold Falta de requisitos claros al inicio
                   td Planificación
                   td En el 60 % de proyectos con retrabajos costosos, los requisitos no estaban definidos ni validados con el cliente antes de comenzar el desarrollo.
-                  td Invertir tiempo en análisis de requisitos. Usar historias de usuario con criterios de aceptación (Given-When-Then) validadas por el cliente antes de codificar.
+                  td Invertir tiempo en análisis de requisitos. Usar historias de usuario con criterios de aceptación (#[i Given-When-Then]) validadas por el cliente antes de codificar.
                 tr
                   td
                     .text-bold Estimaciones optimistas sin fundamento
                   td Planificación
                   td Las estimaciones basadas solo en la intuición sin datos históricos llevan a compromisos imposibles de cumplir y frustración del equipo y cliente.
-                  td Usar Planning Poker, T-shirt sizing o datos de velocidad de sprints anteriores. Aplicar el principio de triplicar la estimación inicial para tareas desconocidas.
+                  td Usar #[i Planning Poker], #[i T-shirt sizing] o datos de velocidad de #[i sprints] anteriores. Aplicar el principio de triplicar la estimación inicial para tareas desconocidas.
                 tr
                   td
                     .text-bold No hacer pruebas durante el desarrollo
                   td Calidad
                   td Posponer pruebas para el final encontró defectos muy costosos. Los errores de integración no detectados a tiempo se multiplican exponencialmente.
-                  td Adoptar TDD o escribir pruebas unitarias en paralelo con el desarrollo. Integrar análisis estático en el IDE desde el primer commit.
+                  td Adoptar TDD o escribir pruebas unitarias en paralelo con el desarrollo. Integrar análisis estático en el IDE desde el primer #[i commit].
                 tr
                   td
                     .text-bold Deuda técnica acumulada y no gestionada
                   td Código
                   td Proyectos que priorizaron velocidad sobre calidad sufrieron desaceleración severa en fases posteriores. Cada atajo se pagó con intereses compuestos.
-                  td Registrar deuda técnica en el backlog con impacto estimado. Dedicar al menos el 20 % de la capacidad de cada sprint a reducirla.
+                  td Registrar deuda técnica en el #[i backlog] con impacto estimado. Dedicar al menos el 20 % de la capacidad de cada sprint a reducirla.
                 tr
                   td
                     .text-bold Comunicación deficiente en el equipo
@@ -289,8 +289,8 @@
                   td
                     .text-bold Ausencia de control de versiones adecuado
                   td Código
-                  td Equipos sin estrategia de ramas definida sufrieron sobreescrituras de código, pérdida de trabajo y conflictos de merge imposibles de resolver.
-                  td Adoptar Git Flow o GitHub Flow desde el día uno. Definir política de commits descriptivos y code reviews obligatorios antes de cada merge.
+                  td Equipos sin estrategia de ramas definida sufrieron sobreescrituras de código, pérdida de trabajo y conflictos de #[i merge] imposibles de resolver.
+                  td Adoptar Git Flow o GitHub Flow desde el día uno. Definir política de #[i commits] descriptivos y #[i code reviews] obligatorios antes de cada #[i merge].
                 tr
                   td
                     .text-bold No documentar mientras se desarrolla
@@ -312,12 +312,12 @@
               figure
                 img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
             .col-9.col-md-10
-              p.mb-0 #[b Práctica ágil:] en Scrum, las lecciones aprendidas se capturan en la retrospectiva del Sprint. La dinámica 'Start / Stop / Continue' es una de las más efectivas: ¿Qué se debe empezar a hacer? ¿Qué se debe dejar de hacer? ¿Qué se está haciendo bien y se debe continuar?
+              p.mb-0 #[b Práctica ágil:] en Scrum, las lecciones aprendidas se capturan en la retrospectiva del #[i Sprint]. La dinámica '#[i Start / Stop / Continue]' es una de las más efectivas: ¿Qué se debe empezar a hacer? ¿Qué se debe dejar de hacer? ¿Qué se está haciendo bien y se debe continuar?
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.3 Recomendaciones de buenas prácticas
     
-    p.mb-4 En el siguiente pódcast se abordarán buenas prácticas clave en el desarrollo de #[i software], orientadas a fortalecer la calidad, el aprendizaje continuo y la mejora de los procesos. A partir de ejemplos prácticos, se analizará cómo estas prácticas contribuyen a construir soluciones más confiables, sostenibles y alineadas con las necesidades de los usuarios y de la organización:
+    p.mb-4 En el siguiente Pódcast se abordarán buenas prácticas clave en el desarrollo de #[i software], orientadas a fortalecer la calidad, el aprendizaje continuo y la mejora de los procesos. A partir de ejemplos prácticos, se analizará cómo estas prácticas contribuyen a construir soluciones más confiables, sostenibles y alineadas con las necesidades de los usuarios y de la organización:
     
     .row.justify-content-center
       .col-lg-10
@@ -326,14 +326,14 @@
         .tarjeta.p-4(style="background-color: #9ECFFF; border-radius: 0 0 20px 20px;")
           .tarjeta.bg-white.p-4.custom-audio-card
             TarjetaAudio.color-acento-botones(
-              texto="Pódcast"
+              texto="Recomendaciones de buenas prácticas"
               :audio="require('@/assets/curso/Temas/audio/5.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
     separador
-    .titulo-segundo.color-acento-contenido
-      h2 Herramientas para la gestión del conocimiento
+    #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 3.4 Herramientas para la gestión del conocimiento
   
     p.mb-4 Existen herramientas especializadas que facilitan la captura, organización y distribución del conocimiento en equipos de #[i software]. La mayoría son gratuitas o tienen planes accesibles para estudiantes y equipos pequeños. A continuación, una breve explicación de cada una:
     .row.justify-content-center.align-items-center-mb-4
@@ -356,19 +356,19 @@
                 tr
                   td
                     .text-bold Confluence
-                  td Wiki empresarial. Integración nativa con Jira y toda la suite Atlassian.
+                  td #[i Wiki] empresarial. Integración nativa con Jira y toda la suite Atlassian.
                   td Bases de conocimiento
                   td Empresarial
                 tr
                   td
                     .text-bold Notion
-                  td Wiki flexible y colaborativa, popular en startups. Versión gratuita generosa.
+                  td #[i Wiki] flexible y colaborativa, popular en startups. Versión gratuita generosa.
                   td Bases de conocimiento
                   td Freemium
                 tr
                   td
-                    .text-bold GitHub Wiki
-                  td Wiki integrada en repositorios GitHub. Ideal para proyectos de código abierto.
+                    .text-bold GitHub #[i Wiki]
+                  td #[i Wiki] integrada en repositorios GitHub. Ideal para proyectos de código abierto.
                   td Doc-as-Code
                   td Open Source
                 tr
@@ -392,13 +392,13 @@
                 tr
                   td
                     .text-bold Slack / Teams
-                  td Mensajería con canales temáticos de conocimiento, tips técnicos y recursos.
+                  td Mensajería con canales temáticos de conocimiento, #[i tips] técnicos y recursos.
                   td Comunicación
                   td Freemium
                 tr
                   td
                     .text-bold Loom
-                  td Grabación de screencasts y videotutoriales asíncronos. Captura conocimiento visual.
+                  td Grabación de #[i screencasts] y videotutoriales asíncronos. Captura conocimiento visual.
                   td Captura tácito
                   td Freemium
                 tr

@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/Temas/tema2/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Definen el "cómo" opera el sistema, a diferencia de los requisitos funcionales que dictan el "qué" hace. En el desarrollo de soluciones de software para la gestión estratégica de información, la calidad no es solo el resultado, sino la robustez de la arquitectura que lo soporta.
+        p Definen el "cómo" opera el sistema, a diferencia de los requisitos funcionales que dictan el "qué" hace. En el desarrollo de soluciones de #[i software] para la gestión estratégica de información, la calidad no es solo el resultado, sino la robustez de la arquitectura que lo soporta.
   
     p.mb-4 A continuación, se detallan los criterios técnicos para evaluar estos requisitos:
     TabsA.color-acento-botones.mb-4
@@ -29,7 +29,7 @@
             figure
                 img(src="@/assets/curso/Temas/tema2/img3.png" alt="Adornos flotantes")
           .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
-            p Evalúa qué tan fácil es para el usuario final (como un gerente de operaciones) interactuar con la solución. La interfaz de usuario (UX) se optimiza mediante un panel de control con botones descriptivos y una visualización clara que utiliza gráficos adecuados y segmentadores (slicers) para filtrar datos intuitivamente. El objetivo principal es la simplicidad, permitiendo que el usuario final obtenga respuestas clave del negocio de forma directa y sin necesidad de conocimientos técnicos profundos.
+            p Evalúa qué tan fácil es para el usuario final (como un gerente de operaciones) interactuar con la solución. La interfaz de usuario (UX) se optimiza mediante un panel de control con botones descriptivos y una visualización clara que utiliza gráficos adecuados y segmentadores (#[i slicers]) para filtrar datos intuitivamente. El objetivo principal es la simplicidad, permitiendo que el usuario final obtenga respuestas clave del negocio de forma directa y sin necesidad de conocimientos técnicos profundos.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Accesibilidad")
         .row.align-items-center
           .col-lg-3.col-10.mx-auto.mb-4.mb-lg-0.order-1.order-lg-2
@@ -43,7 +43,7 @@
             figure
                 img(src="@/assets/curso/Temas/tema2/img5.png" alt="Adornos flotantes")
           .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
-            p Se refiere a la capacidad de una solución de software para ejecutarse y mantenerse funcional en distintos entornos tecnológicos sin requerir modificaciones significativas. En el contexto de soluciones basadas en hojas de cálculo y automatización, este criterio implica garantizar la compatibilidad entre diferentes versiones del software, sistemas operativos y configuraciones de hardware. Para ello, se prioriza el uso de funciones estándar, la correcta gestión de rutas relativas, la eliminación de dependencias locales y la validación de macros en entornos controlados. Una solución portable reduce los riesgos asociados a la migración, facilita el despliegue en distintos equipos o sedes y asegura la continuidad operativa, incluso cuando la herramienta es transferida entre usuarios, áreas o plataformas institucionales.
+            p Se refiere a la capacidad de una solución de #[i software] para ejecutarse y mantenerse funcional en distintos entornos tecnológicos sin requerir modificaciones significativas. En el contexto de soluciones basadas en hojas de cálculo y automatización, este criterio implica garantizar la compatibilidad entre diferentes versiones del #[i software], sistemas operativos y configuraciones de hardware. Para ello, se prioriza el uso de funciones estándar, la correcta gestión de rutas relativas, la eliminación de dependencias locales y la validación de macros en entornos controlados. Una solución portable reduce los riesgos asociados a la migración, facilita el despliegue en distintos equipos o sedes y asegura la continuidad operativa, incluso cuando la herramienta es transferida entre usuarios, áreas o plataformas institucionales.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Tiempos de respuesta")
         .row.align-items-center
           .col-lg-3.col-10.mx-auto.mb-4.mb-lg-0.order-1.order-lg-2
@@ -57,7 +57,7 @@
             figure
                 img(src="@/assets/curso/Temas/tema2/img7.png" alt="Adornos flotantes")
           .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
-            p La adaptabilidad en el diseño de software es la capacidad de un sistema para evolucionar y ajustarse de manera eficiente a cambios en el entorno, los requisitos del usuario o las innovaciones tecnológicas sin comprometer su integridad. Un diseño adaptable se fundamenta en una arquitectura modular y el uso de patrones de diseño que reducen el acoplamiento, permitiendo que nuevas funcionalidades se integren con facilidad y que el software sea escalable ante el crecimiento de la demanda. Esta cualidad no solo extiende el ciclo de vida del producto, sino que también optimiza el mantenimiento y garantiza que la solución siga siendo funcional y competitiva en un mercado digital en constante transformación.
+            p La adaptabilidad en el diseño de #[i software] es la capacidad de un sistema para evolucionar y ajustarse de manera eficiente a cambios en el entorno, los requisitos del usuario o las innovaciones tecnológicas sin comprometer su integridad. Un diseño adaptable se fundamenta en una arquitectura modular y el uso de patrones de diseño que reducen el acoplamiento, permitiendo que nuevas funcionalidades se integren con facilidad y que el #[i software] sea escalable ante el crecimiento de la demanda. Esta cualidad no solo extiende el ciclo de vida del producto, sino que también optimiza el mantenimiento y garantiza que la solución siga siendo funcional y competitiva en un mercado digital en constante transformación.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Confiabilidad")
         .row.align-items-center
           .col-lg-3.col-10.mx-auto.mb-4.mb-lg-0.order-1.order-lg-2
@@ -102,7 +102,7 @@
                 p.mb-0 90-100 % = Excelente calidad.
                 p.mb-0 70-89 % = Buena calidad (revisar ítems pendientes).
                 p.mb-0 50-69 % = Calidad aceptable (plan de mejora requerido).
-                p.mb-0 < 50% = Calidad insuficiente (requiere trabajo significativo).
+                p.mb-0 < 50 % = Calidad insuficiente (requiere trabajo significativo).
 </template>
 
 <script>
