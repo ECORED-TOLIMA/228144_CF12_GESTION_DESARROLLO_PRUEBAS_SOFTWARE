@@ -61,7 +61,7 @@
       h2 1.2 Herramientas de evaluación
     
     .BMG1.px-5
-      p.mb-4 Existen distintas perspectivas y momentos para evaluar la calidad. Lo ideal es combinarlos durante todo el ciclo de vida del #[i software]; para ello existen diferentes enfoques y herramientas de evaluación. Po consiguiente, para optimizar la calidad del #[i software], se emplean diversas técnicas complementarias:
+      p.mb-4 Existen distintas perspectivas y momentos para evaluar la calidad. Lo ideal es combinarlos durante todo el ciclo de vida del #[i software]; para ello existen diferentes enfoques y herramientas de evaluación. Por consiguiente, para optimizar la calidad del #[i software], se emplean diversas técnicas complementarias:
       .row.justify-content-center.mb-4
         .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
           .tarjeta-avatar

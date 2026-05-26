@@ -29,7 +29,7 @@
       .col-lg-12
         figure(data-aos="zoom-in")
           .video
-            iframe(width="1346" height="757" src="https://www.youtube.com/embed/BPEm300HKyk" title="#[i Frontend] con #[i HTML]5, #[i CSS] y #[i JSS]: introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1401" height="788" src="https://www.youtube.com/embed/9gkXEVPA6WY" title="Calidad de software: evaluación, aprendizaje y mejora continua" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 </template>
 
 <script>

@@ -74,7 +74,7 @@
       .col-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 3.
-          span Modelo SCI
+          span Modelo SECI
         .tabla-a.color-acento-contenido
           table
             thead
@@ -107,7 +107,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5  B.Modelo de procesos organizacionales — Probst, Raub & Romhardt (2001)
-    p.mb Este modelo pragmático identifica siete procesos interconectados de gestión del conocimiento. A diferencia del SECI (más teórico), ofrece una guía operacional de qué hacer en cada etapa para gestionar el conocimiento organizacional de forma efectiva y se explica de a continuación:
+    p.mb Este modelo pragmático identifica siete procesos interconectados de gestión del conocimiento. A diferencia del SECI (más teórico), ofrece una guía operacional de qué hacer en cada etapa para gestionar el conocimiento organizacional de forma efectiva y se explica a continuación:
      br
     .row.justify-content-center.mb-4
       .col-10
