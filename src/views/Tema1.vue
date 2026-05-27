@@ -20,7 +20,7 @@
       h2 1.1 Control de calidad
     .row.justify-content-center.align-items-start.mb-4
       .col-lg-9.order-2.order-lg-1
-        p Es el proceso sistemático de verificar que un producto final —ya sea un reporte automatizado, un dashboard o una macro— cumpla con las especificaciones técnicas y las necesidades reales del negocio.
+        p Es el proceso sistemático de verificar que un producto final —ya sea un reporte automatizado, un #[i dashboard] o una macro— cumpla con las especificaciones técnicas y las necesidades reales del negocio.
         p.mb-4 La gestión de la calidad del #[i software] se fundamenta en tres pilares esenciales:
         .row
           .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-right")
@@ -72,7 +72,7 @@
                   .col-auto
                     .py-2.px-3
                       p.mb-0 #[b Análisis estático]
-                p.text-center.mb-0 Permite examinar el código sin ejecutarlo para detectar deuda técnica y malas prácticas mediante herramientas como SonarQube o ESLint
+                p.text-center.mb-0 Permite examinar el código sin ejecutarlo para detectar deuda técnica y malas prácticas mediante herramientas como SonarQube o ESLint.
         .col-10.col-md-6.col-lg-4(data-aos="fade-left")
           .tarjeta-avatar
             img(src='@/assets/curso/Temas/tema1/img9.png' alt='AvatarTop')
@@ -96,7 +96,7 @@
         LineaTiempoD.color-primario
           p(numero="1" titulo="Validación de entradas y restricciones") Constituye la primera línea de defensa para garantizar la calidad funcional, utilizando la validación de datos nativa para restringir ingresos erróneos y listas desplegables que aseguran la estandarización de categorías. Complementariamente, las pruebas de integridad en el modelado (caja negra) verifican el flujo de información externa, mediante el cruce de información con funciones como BUSCARV/XLOOKUP y el uso de tablas de Excel (objetos), lo que permite que las referencias sean dinámicas y hereden automáticamente las reglas funcionales.
 
-          p(numero="2" titulo="Procesamiento") En este eje las herramientas de cálculo y lógica automática aseguran que las columnas calculadas y las funciones de texto y fecha devuelvan valores esperados bajo distintos escenarios; por otro lado, las tablas dinámicas y segmentadores (#[i slicers]) actúan como un "test de estrés" funcional para la visualización, permitiendo la agrupación y filtrado de datos y una segmentación interactiva que facilita a la gerencia filtrar información en tiempo real, validando así la respuesta del sistema ante las preguntas del negocio.
+          p(numero="2" titulo="Procesamiento") En este eje las herramientas de cálculo y lógica automática aseguran que las columnas calculadas y las funciones de texto y fecha devuelvan valores esperados bajo distintos escenarios; por otro lado, las tablas dinámicas y segmentadores (#[i slicers]) actúan como un "#[i test] de estrés" funcional para la visualización, permitiendo la agrupación y filtrado de datos y una segmentación interactiva que facilita a la gerencia filtrar información en tiempo real, validando así la respuesta del sistema ante las preguntas del negocio.
 
           p(numero="3" titulo="Grabadora de macros y automatización") Se utiliza para la generación de "#[i scripts]" funcionales, donde la prueba definitiva consiste en la ejecución de macros para validar que el informe final coincida con el plan de acción. Para mejorar la interfaz de usuario (botones), estas automatizaciones se vinculan a un "panel de control", garantizando que la funcionalidad sea accesible para usuarios sin conocimientos técnicos y asegurando una experiencia de uso fluida y profesional.
       .col-6.col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
@@ -139,7 +139,7 @@
             figure
               img(src="@/assets/curso/Temas/tema1/img13.png" alt="Icono fiabilidad")
           .col-lg-9
-            p.mb-0 Las pruebas de fiabilidad y consistencia aseguran que el sistema sea resistente a fallos, mediante la validación de la macro, realizando tests de "borrado y ejecución" para obtener resultados constantes. La documentación y planificación previa del algoritmo es una herramienta no funcional clave para reducir drásticamente el riesgo de errores operativos a largo plazo.
+            p.mb-0 Las pruebas de fiabilidad y consistencia aseguran que el sistema sea resistente a fallos, mediante la validación de la macro, realizando #[i tests] de "borrado y ejecución" para obtener resultados constantes. La documentación y planificación previa del algoritmo es una herramienta no funcional clave para reducir drásticamente el riesgo de errores operativos a largo plazo.
 
 
     .row.justify-content-center.align-items-center.mb-3
@@ -163,7 +163,7 @@
                 th Herramienta / técnica
                 th Objetivo en el programa
             tbody
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Eficiencia
                 td Cronometrar ejecución de macros.
                 td Reducir tiempos de 4 horas a minutos.
@@ -171,9 +171,9 @@
                 td Escalabilidad
                 td Modelado con tablas oficiales.
                 td Soportar crecimiento rápido de transacciones
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Usabilidad
-                td Dashboard con segmentadores.
+                td #[i Dashboard] con segmentadores.
                 td Facilitar la toma de decisiones gerenciales.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
@@ -217,7 +217,7 @@
             .col-md.cajon.color-primario.p-4
               .row.justify-content-center.align-items-center
                 .col-12.col-md-12
-                  p.mb-0 Por otro lado, la calidad externa se mide a través de métricas de eficiencia y rendimiento, las cuales reflejan el impacto real en el negocio, mediante el ahorro de tiempo operativo y la notable reducción del error humano tras la estandarización de procesos. Para visualizar estos resultados, se emplean herramientas de análisis de datos como dashboards de control de calidad y tablas dinámicas de seguimiento, complementadas con #[i logs] de auditoría que registran eventos y excepciones. Finalmente, la tasa de uso por parte de la gerencia confirma si la solución adoptada cumple con los objetivos de usabilidad y valor estratégico.
+                  p.mb-0 Por otro lado, la calidad externa se mide a través de métricas de eficiencia y rendimiento, las cuales reflejan el impacto real en el negocio, mediante el ahorro de tiempo operativo y la notable reducción del error humano tras la estandarización de procesos. Para visualizar estos resultados, se emplean herramientas de análisis de datos como #[i dashboards] de control de calidad y tablas dinámicas de seguimiento, complementadas con #[i logs] de auditoría que registran eventos y excepciones. Finalmente, la tasa de uso por parte de la gerencia confirma si la solución adoptada cumple con los objetivos de usabilidad y valor estratégico.
 
     p.mb Basado en lo anterior, la siguiente tabla presenta un conjunto de herramientas ampliamente utilizadas en la ingeniería de #[i software] para el análisis, la medición y el control de la calidad:
 
@@ -236,7 +236,7 @@
                 th Propósito principal
                 th Licencia
             tbody
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold SonarQube
                 td Análisis estático de código, deuda técnica, calidad general.
@@ -246,7 +246,7 @@
                   .text-bold JUnit / PyTest
                 td Pruebas unitarias para Java y Python respectivamente.
                 td Open Source
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Selenium WebDriver
                 td Automatización de pruebas funcionales de UI web.
@@ -256,7 +256,7 @@
                   .text-bold Apache JMeter
                 td Pruebas de rendimiento, carga y estrés.
                 td Open Source
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold OWASP ZAP
                 td Pruebas de seguridad y detección de vulnerabilidades.
@@ -266,7 +266,7 @@
                   .text-bold JaCoCo / Coverage.py
                 td Medición de cobertura de pruebas en Java y Python.
                 td Open Source
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Postman / Rest Assured
                 td Pruebas funcionales de APIs REST.
@@ -276,7 +276,7 @@
                   .text-bold PJenkins / GitHub Actions
                 td Integración continua (CI/CD) y automatización de pipelines.
                 td Open Source / Incluido
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Jira
                 td Seguimiento de defectos y gestión de proyectos ágiles.
@@ -286,7 +286,7 @@
                   .text-bold ESLint / Checkstyle
                 td Verificación de estilo y convenciones de código.
                 td Open Source
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold New Relic / Grafana
                 td Monitoreo de rendimiento en producción.

@@ -147,7 +147,7 @@
                 th Descripción
                 th Ejemplo
             tbody
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold ID de la acción
                 td Identificador único.
@@ -157,7 +157,7 @@
                   .text-bold Hallazgo / Brecha
                 td No conformidad o brecha identificada.
                 td Cobertura de pruebas en 35 % (meta: 70 %).
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Causa raíz
                 td Resultado del análisis causal (5 porqués).
@@ -167,7 +167,7 @@
                   .text-bold Tipo de acción
                 td Correctiva / Preventiva / Mejoramiento.
                 td Correctiva.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Acción propuesta
                 td Qué se va a hacer, en concreto.
@@ -177,7 +177,7 @@
                   .text-bold Responsible (R)
                 td Quién ejecuta la acción.
                 td Desarrollador líder del módulo.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Accountable (A)
                 td Quién responde por el resultado.
@@ -187,7 +187,7 @@
                   .text-bold Consulted (C)
                 td A quién se consulta.
                 td Arquitecto de #[i software].
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Informed (I)
                 td A quién se informa.
@@ -197,8 +197,9 @@
                   .text-bold Fecha de inicio
                 td Fecha programada de inicio.
                 td 2025-03-01.
-              tr
-                td Fecha límite
+              tr(style="background-color: #F3F9FF;")
+                td 
+                  .text-bold Fecha límite
                 td Fecha máxima de cierre.
                 td 2025-04-30.
               tr
@@ -206,7 +207,7 @@
                   .text-bold Recursos
                 td Recursos necesarios para ejecutar.
                 td 8 horas de capacitación, SonarQube.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Indicador de éxito
                 td KPI que confirma el cumplimiento.
@@ -216,7 +217,7 @@
                   .text-bold Estado
                 td Semáforo de avance actual.
                 td En progreso.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Evidencia de cierre
                 td Dato que demuestra cumplimiento.
@@ -287,7 +288,7 @@
                 th Impacto
                 th Plazo
             tbody
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold AC-001
                 td Alta tasa de defectos en producción (5 bugs/KLOC).
@@ -303,7 +304,7 @@
                 td Implementar tablero de métricas de velocidad en Jira y usar Planning Poker con datos históricos en cada planificación de #[i sprint].
                 td Alta
                 td Próximo #[i sprint]
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold AC-003
                 td Vulnerabilidades de seguridad críticas en producción.
@@ -319,7 +320,7 @@
                 td Adoptar GitHub Flow: #[i main] protegido + #[i feature branches] + #[i pull requests] obligatorios. Capacitar al equipo en sesión de 2 horas.
                 td Media
                 td 1 semana
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold AC-005
                 td Documentación técnica inexistente al cierre.
@@ -394,7 +395,7 @@
                       i.fas.fa-circle(style="color: #0074BA")
                       | Mejoramiento
             tbody
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td #[b Momento de aplicación]
                 td Después del problema ocurrido.
                 td Antes de que el riesgo ocurra.
@@ -404,7 +405,7 @@
                 td No conformidad o defecto real.
                 td Riesgo o tendencia negativa detectada.
                 td Oportunidad de optimización.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td #[b Base de análisis]
                 td Causa raíz del problema ocurrido.
                 td Análisis de riesgos y lecciones aprendidas.
@@ -414,7 +415,7 @@
                 td Eliminar causa para que no se repita.
                 td Evitar que el riesgo se materialice.
                 td Elevar el nivel de desempeño.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td #[b Urgencia]
                 td Alta (ya hay impacto real).
                 td Media (riesgo latente).
@@ -424,7 +425,7 @@
                 td Automatizar pruebas tras fallo en producción.
                 td #[i Checklist] de seguridad pre-lanzamiento.
                 td Implementar DevOps para acelerar CI/CD.
-    .row
+    .row.mb-4
       .col-1
       .col-10
         .titulo-sexto.color-acento-contenido.mb-3
@@ -440,7 +441,7 @@
                 th Acción propuesta
                 th Beneficio esperado
             tbody
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Preventiva
                 td AP-001
                 td El líder técnico único concentra todo el conocimiento del sistema.
@@ -452,7 +453,7 @@
                 td Complejidad ciclomática, subió de 6 a 9 en 2 #[i sprints] (tendencia negativa).
                 td Regla en SonarQube: #[i build failed] si función supera CC=10. Refactorizar funciones actuales con CC ≥ 10.
                 td Previene código imposible de mantener antes de que sea deuda crítica.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Preventiva
                 td AP-003
                 td Sin plan de continuidad ante falla del servidor de producción.
@@ -464,7 +465,7 @@
                 td El despliegue manual toma 3 horas y genera errores humanos frecuentes.
                 td #[i Pipeline] CI/CD completo con GitHub #[i Actions]: despliegue automático a #[i staging] en cada #[i merge] + producción con aprobación manual.
                 td Reduce despliegue de 3 horas a 8 minutos, elimina errores manuales.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Mejoramiento
                 td AM-002
                 td El equipo no tiene visibilidad del estado de calidad del proyecto en tiempo real.
@@ -484,7 +485,7 @@
                   figure
                     img(src="@/assets/curso/Temas/tema1/img7.png" alt="Adornos flotantes")
                 .col-lg-11
-                  p.mb-0 #[b Fuentes para identificar preventivas y mejoramiento:] análisis de riesgos (FMEA, matriz de riesgos), benchmarking con la industria, sugerencias del equipo en retrospectivas, auditorías internas proactivas y revisión de tendencias de métricas de calidad.
+                  p.mb-0 #[b Fuentes para identificar preventivas y mejoramiento:] análisis de riesgos (FMEA, matriz de riesgos), #[i benchmarking] con la industria, sugerencias del equipo en retrospectivas, auditorías internas proactivas y revisión de tendencias de métricas de calidad.
     separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.4 Responsables del plan de mejora
@@ -499,19 +500,15 @@
                 
 
             .tarjeta.color-secundario.p-3(x="16%" y="23%" numero="+")
-              .h5.mb-2 R — Responsible
               p Quien ejecuta la acción directamente. Puede haber más de uno. Debe tener las competencias técnicas y el tiempo disponible.
 
             .tarjeta.color-secundario.p-3(x="84%" y="23%" numero="+")
-              .h5.mb-2 A — Accountable
-              p Quien responde por el resultado final. Solo puede haber uno por acción. Aprueba el trabajo del Responsible y rinde cuentas ante la dirección.
+              p Quien responde por el resultado final. Solo puede haber uno por acción. Aprueba el trabajo del responsible y rinde cuentas ante la dirección.
 
             .tarjeta.color-secundario.p-3(x="15%" y="75%" numero="+")
-              .h5.mb-2 C — Consulted
               p A quien se consulta antes o durante la ejecución. Provee criterios especializados. Comunicación bidireccional.
             
             .tarjeta.color-secundario.p-3(x="84%" y="75%" numero="+")
-              .h5.mb-2 I — Informed
               p A quien se informa del avance y resultados. Comunicación unidireccional. No participa en la ejecución.
         .d-block.d-lg-none
           figure
@@ -550,7 +547,7 @@
                 th Arquitecto de #[i software]
                 th Cliente
             tbody
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Elaborar plan de mejora.
                 td A
                 td R
@@ -566,7 +563,7 @@
                 td R
                 td C
                 td I
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Ejecutar acción correctiva.
                 td A
                 td R
@@ -582,7 +579,7 @@
                 td R
                 td C
                 td I
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Revisar código (#[i code review]).
                 td I
                 td A
@@ -598,7 +595,7 @@
                 td A
                 td I
                 td I
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Configurar #[i pipeline] CI/CD.
                 td C
                 td A
@@ -614,7 +611,7 @@
                 td R
                 td I
                 td C
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td Generar informe de avance.
                 td A
                 td R

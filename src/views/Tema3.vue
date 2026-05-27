@@ -83,7 +83,7 @@
                 th Descripción
                 th Ejemplo en proyectos TI
             tbody
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Socialización (T→T)
                 td Tácito a Tácito. Transferencia de conocimiento por observación, práctica y convivencia en equipo.
@@ -93,7 +93,7 @@
                   .text-bold Externalización (T→E)
                 td Tácito a Explícito. Convertir experiencias y saber-hacer en documentos formales.
                 td Redactar lecciones aprendidas, crear #[i wikis] técnicas, documentar ADR, grabar tutoriales.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold Combinación (E→E)
                 td Explícito a Explícito. Integrar y sistematizar conocimiento ya documentado.
@@ -122,7 +122,7 @@
                 th Proceso
                 th Descripción y actividades clave
             tbody
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold 01
                 td
@@ -134,7 +134,7 @@
                 td
                   .text-bold Adquisición
                 td Obtener conocimiento externo: capacitaciones, consultoría, #[i benchmarking] con otras organizaciones, incorporación de expertos.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold 03
                 td
@@ -146,10 +146,11 @@
                 td
                   .text-bold Distribución
                 td Compartir con quien lo necesita: talleres, comunidades de práctica, #[i tech talks], rotación planificada de roles y proyectos.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td 
                   .text-bold 05
-                td Utilización
+                td 
+                  .text-bold Utilización
                 td Aplicar en el trabajo real: el conocimiento solo tiene valor cuando se usa. Indicador: frecuencia de consulta de la base de conocimiento.
               tr
                 td
@@ -157,7 +158,7 @@
                 td
                   .text-bold Retención
                 td Evitar pérdida de conocimiento crítico: documentación, entrevistas de salida, planes de sucesión, mentorías entre expertos y novatos.
-              tr
+              tr(style="background-color: #F3F9FF;")
                 td
                   .text-bold 07
                 td
@@ -177,8 +178,8 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.2 Lecciones aprendidas en proyectos de #[i software]
 
-    p.mb-0 Las lecciones aprendidas son el conocimiento adquirido durante la ejecución de un proyecto, tanto de los éxitos como de los errores y dificultades. Su correcta documentación y aplicación en proyectos futuros es uno de los activos más valiosos de una organización de #[i software].
-
+    p Las lecciones aprendidas son el conocimiento adquirido durante la ejecución de un proyecto, tanto de los éxitos como de los errores y dificultades. Su correcta documentación y aplicación en proyectos futuros es uno de los activos más valiosos de una organización de #[i software].
+    p.mb-4 La estructura de una lección aprendida es:
     .tarjeta--BMG06.px-5
       .row.justify-content-center.align-items-center.py-5.position-relative
         .col-lg-4.d-none.d-lg-block
@@ -255,7 +256,7 @@
                   th Descripción
                   th Recomendación
               tbody
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold Falta de requisitos claros al inicio
                   td Planificación
@@ -267,7 +268,7 @@
                   td Planificación
                   td Las estimaciones basadas solo en la intuición sin datos históricos llevan a compromisos imposibles de cumplir y frustración del equipo y cliente.
                   td Usar #[i Planning Poker], #[i T-shirt sizing] o datos de velocidad de #[i sprints] anteriores. Aplicar el principio de triplicar la estimación inicial para tareas desconocidas.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold No hacer pruebas durante el desarrollo
                   td Calidad
@@ -279,7 +280,7 @@
                   td Código
                   td Proyectos que priorizaron velocidad sobre calidad sufrieron desaceleración severa en fases posteriores. Cada atajo se pagó con intereses compuestos.
                   td Registrar deuda técnica en el #[i backlog] con impacto estimado. Dedicar al menos el 20 % de la capacidad de cada sprint a reducirla.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold Comunicación deficiente en el equipo
                   td Equipo
@@ -291,7 +292,7 @@
                   td Código
                   td Equipos sin estrategia de ramas definida sufrieron sobreescrituras de código, pérdida de trabajo y conflictos de #[i merge] imposibles de resolver.
                   td Adoptar Git Flow o GitHub Flow desde el día uno. Definir política de #[i commits] descriptivos y #[i code reviews] obligatorios antes de cada #[i merge].
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold No documentar mientras se desarrolla
                   td Documentación
@@ -353,7 +354,7 @@
                   th Categoría
                   th Licencia
               tbody
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold Confluence
                   td #[i Wiki] empresarial. Integración nativa con Jira y toda la suite Atlassian.
@@ -365,7 +366,7 @@
                   td #[i Wiki] flexible y colaborativa, popular en startups. Versión gratuita generosa.
                   td Bases de conocimiento
                   td Freemium
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold GitHub #[i Wiki]
                   td #[i Wiki] integrada en repositorios GitHub. Ideal para proyectos de código abierto.
@@ -377,7 +378,7 @@
                   td Gestión de notas con Markdown y enlaces bidireccionales. Ideal para conocimiento personal.
                   td Bases de Conocimiento
                   td Freemium
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold Miro
                   td Pizarra colaborativa virtual para retrospectivas y mapas de conocimiento.
@@ -389,7 +390,7 @@
                   td Herramienta específica para retrospectivas ágiles de equipo. Simple y efectiva.
                   td Retrospectivas
                   td Freemium
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold Slack / Teams
                   td Mensajería con canales temáticos de conocimiento, #[i tips] técnicos y recursos.
@@ -401,7 +402,7 @@
                   td Grabación de #[i screencasts] y videotutoriales asíncronos. Captura conocimiento visual.
                   td Captura tácito
                   td Freemium
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold Moodle
                   td LMS Open Source. Estructura conocimiento en cursos y módulos.
@@ -413,7 +414,7 @@
                   td Documentación en texto plano versionada junto al código. Práctica estándar.
                   td Doc-as-Code
                   td Open Source
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td
                     .text-bold MkDocs / Docusaurus
                   td Generadores de sitios de documentación a partir de Markdown con búsqueda integrada.
@@ -425,7 +426,6 @@
                   td Gestión de Architecture Decision Records. Registros de decisiones técnicas versionados.
                   td Decisiones
                   td Open Source
-    br
 </template>
 
 <script>
