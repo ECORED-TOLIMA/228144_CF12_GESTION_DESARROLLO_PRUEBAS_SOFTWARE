@@ -68,7 +68,6 @@
       .col-lg-9
         .tarjeta.BG03.p-4
           p.mb-0 El modelo SECI es el marco teórico más influyente en gestión del conocimiento. Describe cómo el conocimiento se crea y transforma en las organizaciones a través de cuatro procesos de conversión. La dinámica no es lineal sino en espiral: cada ciclo genera conocimiento de mayor nivel de complejidad y valor. Cada una de sus fases se detalla de la siguiente manera:
-
     .row
       .col-1
       .col-10
@@ -191,51 +190,51 @@
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/Temas/tema3/img7.svg' alt='Icono')
-              h4.text-center Título descriptivo
+              h5.text-center Título descriptivo
               p.text-center Qué ocurrió, breve y claro.
 
             .tarjeta.tarjeta-blanca.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/Temas/tema3/img8.svg' alt='Icono')
-              h4.text-center Área o categoría
+              h5.text-center Área o categoría
               p.text-center Planificación, código, calidad, equipo, seguridad, etc.
 
             .tarjeta.tarjeta-blanca.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/Temas/tema3/img9.svg' alt='Icono')
-              h4.text-center Descripción del problema
+              h5.text-center Descripción del problema o situación
               p.text-center Qué pasó exactamente.
             .tarjeta.tarjeta-blanca.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/Temas/tema3/img10.svg' alt='Icono')
-              h4.text-center Causas raíz identificadas
+              h5.text-center Causas raíz identificadas
               p.text-center Por qué ocurrió (técnica de los 5 Porqués).
             .tarjeta.tarjeta-blanca.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/Temas/tema3/img11.svg' alt='Icono')
-              h4.text-center Impacto en el proyecto
+              h5.text-center Impacto en el proyecto
               p.text-center Tiempo, costo, calidad, satisfacción del cliente.
             .tarjeta.tarjeta-blanca.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/Temas/tema3/img12.svg' alt='Icono')
-              h4.text-center Solución aplicada
+              h5.text-center Solución aplicada
               p.text-center Qué se hizo para resolverlo.
             .tarjeta.tarjeta-blanca.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/Temas/tema3/img13.svg' alt='Icono')
-              h4.text-center Recomendación
+              h5.text-center Recomendación
               p.text-center Qué hacer para evitarlo en proyectos futuros.
             .tarjeta.tarjeta-blanca.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/Temas/tema3/img14.svg' alt='Icono')
-              h4.text-center Responsable
+              h5.text-center Responsable
               p.text-center Del registro y fecha.
     .BMG1.px-5
       p.mb-4 La siguiente tabla presenta un conjunto de lecciones aprendidas obtenidas de experiencias recurrentes en proyectos de desarrollo de #[i software]. Su sistematización permite identificar problemas frecuentes y establecer recomendaciones prácticas para mejorar la gestión y ejecución de futuros proyectos:
@@ -258,49 +257,49 @@
               tbody
                 tr(style="background-color: #F3F9FF;")
                   td
-                    .text-bold Falta de requisitos claros al inicio
+                    .text-bold Falta de requisitos claros al inicio.
                   td Planificación
                   td En el 60 % de proyectos con retrabajos costosos, los requisitos no estaban definidos ni validados con el cliente antes de comenzar el desarrollo.
                   td Invertir tiempo en análisis de requisitos. Usar historias de usuario con criterios de aceptación (#[i Given-When-Then]) validadas por el cliente antes de codificar.
                 tr
                   td
-                    .text-bold Estimaciones optimistas sin fundamento
+                    .text-bold Estimaciones optimistas sin fundamento.
                   td Planificación
                   td Las estimaciones basadas solo en la intuición sin datos históricos llevan a compromisos imposibles de cumplir y frustración del equipo y cliente.
                   td Usar #[i Planning Poker], #[i T-shirt sizing] o datos de velocidad de #[i sprints] anteriores. Aplicar el principio de triplicar la estimación inicial para tareas desconocidas.
                 tr(style="background-color: #F3F9FF;")
                   td
-                    .text-bold No hacer pruebas durante el desarrollo
+                    .text-bold No hacer pruebas durante el desarrollo.
                   td Calidad
                   td Posponer pruebas para el final encontró defectos muy costosos. Los errores de integración no detectados a tiempo se multiplican exponencialmente.
                   td Adoptar TDD o escribir pruebas unitarias en paralelo con el desarrollo. Integrar análisis estático en el IDE desde el primer #[i commit].
                 tr
                   td
-                    .text-bold Deuda técnica acumulada y no gestionada
+                    .text-bold Deuda técnica acumulada y no gestionada.
                   td Código
                   td Proyectos que priorizaron velocidad sobre calidad sufrieron desaceleración severa en fases posteriores. Cada atajo se pagó con intereses compuestos.
                   td Registrar deuda técnica en el #[i backlog] con impacto estimado. Dedicar al menos el 20 % de la capacidad de cada sprint a reducirla.
                 tr(style="background-color: #F3F9FF;")
                   td
-                    .text-bold Comunicación deficiente en el equipo
+                    .text-bold Comunicación deficiente en el equipo.
                   td Equipo
                   td La falta de comunicación llevó a dos desarrolladores a implementar la misma funcionalidad de formas incompatibles, causando conflictos de integración costosos.
                   td #[i Daily standups] reales y eficientes. Canales de comunicación estructurados. Documentar decisiones técnicas importantes en registros ADR.
                 tr
                   td
-                    .text-bold Ausencia de control de versiones adecuado
+                    .text-bold Ausencia de control de versiones adecuado.
                   td Código
                   td Equipos sin estrategia de ramas definida sufrieron sobreescrituras de código, pérdida de trabajo y conflictos de #[i merge] imposibles de resolver.
                   td Adoptar Git Flow o GitHub Flow desde el día uno. Definir política de #[i commits] descriptivos y #[i code reviews] obligatorios antes de cada #[i merge].
                 tr(style="background-color: #F3F9FF;")
                   td
-                    .text-bold No documentar mientras se desarrolla
+                    .text-bold No documentar mientras se desarrolla.
                   td Documentación
                   td La documentación generada al final es incompleta. Los desarrolladores olvidan detalles de implementación y justificaciones de las decisiones tomadas.
                   td Documentar en el mismo momento del desarrollo. Comentarios en código, README actualizado, ADR para decisiones arquitectónicas. Doc-as-Code en el repositorio.
                 tr
                   td
-                    .text-bold Ignorar la seguridad durante el desarrollo
+                    .text-bold Ignorar la seguridad durante el desarrollo.
                   td Seguridad
                   td Agregar seguridad al final es exponencialmente más costoso. Las vulnerabilidades encontradas tarde requieren cambios arquitectónicos profundos.
                   td Adoptar DevSecOps. Incluir Threat Modeling desde el diseño, validar inputs en cada capa y ejecutar OWASP ZAP en el pipeline CI/CD.

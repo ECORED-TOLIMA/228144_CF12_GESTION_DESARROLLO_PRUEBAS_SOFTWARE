@@ -36,7 +36,7 @@
             figure
                 img(src="@/assets/curso/Temas/tema2/img4.png" alt="Adornos flotantes")
           .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
-            p Asegura que la solución sea utilizable por el mayor número de personas, independientemente de sus capacidades técnicas. La estandarización mediante formatos consistentes y etiquetas claras en gráficos es fundamental para garantizar una lectura ágil de los indicadores en cualquier dashboard. Además, el diseño debe considerar el soporte multi-dispositivo, asegurando que las soluciones sean adaptables y funcionales tanto en herramientas de escritorio como en plataformas LMS y entornos virtuales de aprendizaje.
+            p Asegura que la solución sea utilizable por el mayor número de personas, independientemente de sus capacidades técnicas. La estandarización mediante formatos consistentes y etiquetas claras en gráficos es fundamental para garantizar una lectura ágil de los indicadores en cualquier dashboard. Además, el diseño debe considerar el soporte multidispositivo, asegurando que las soluciones sean adaptables y funcionales tanto en herramientas de escritorio como en plataformas LMS y entornos virtuales de aprendizaje.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Portabilidad")
         .row.align-items-center
           .col-lg-3.col-10.mx-auto.mb-4.mb-lg-0.order-1.order-lg-2

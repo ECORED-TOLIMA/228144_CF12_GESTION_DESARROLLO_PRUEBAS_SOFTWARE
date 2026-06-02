@@ -71,7 +71,7 @@
                   img(src='@/assets/curso/Temas/tema4/img4.svg', alt='Causa raíz')
               .col-lg-10
                 h3 Analizar la causa raíz
-                p Aplicar técnicas de análisis causal: 5 Porqués, diagrama de Ishikawa, FMEA o árbol de fallas. No actuar sobre síntomas sino sobre causas sistémicas.
+                p Aplicar técnicas de análisis causal: técnica de los 5 porqués, diagrama de Ishikawa (espina de pescado), FMEA o árbol de fallas. No actuar sobre síntomas sino sobre causas sistémicas.
 
             //- PASO 3
             .row(titulo="Paso 3")
@@ -80,7 +80,7 @@
                   img(src='@/assets/curso/Temas/tema4/img5.svg', alt='Objetivo SMART')
               .col-lg-10.mb-4.mb-lg-0
                 h3 Definir el objetivo de mejora SMART
-                p Específico, medible, alcanzable, relevante y con Tiempo definido. Ejemplo: "Reducir densidad de defectos de 3 a 0.8 bugs/KLOC en 3 meses".
+                p Específico, medible, alcanzable, relevante y con tiempo definido. Ejemplo: “reducir densidad de defectos de 3 a 0.8 bugs/KLOC en 3 meses”
 
             //- PASO 4
             .row(titulo="Paso 4")
@@ -339,12 +339,12 @@
               i.fas.fa-computer
               p.mb-0 #[b Corrección]
                 br 
-                | Resuelve el problema puntual "se arregló el #[i bug]".
+                | Resuelve el problema puntual: "se arregló el #[i bug]".
             li
               i.fas.fa-computer
               p.mb-0 #[b Acción correctiva]
                 br 
-                | Elimina lo que causó el #[i bug] sistemáticamente "se implementó revisión de código obligatoria y pruebas de regresión automatizadas para evitar que este tipo de error vuelva a llegar a producción".
+                | Elimina lo que causó el #[i bug] sistemáticamente: "se implementó revisión de código obligatoria y pruebas de regresión automatizadas para evitar que este tipo de error vuelva a llegar a producción".
       .col-lg-3.d-none.d-lg-block
           figure
             img.mx-auto.d-block(src='@/assets/curso/Temas/tema4/img16.png', alt='Ilustración de persona trabajando con engranajes y computadoras')
@@ -371,7 +371,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 9.
-          span Comparativo acciones correctivas, preventiva y de mejoramiento
+          span Comparativo acciones correctivas, preventivas y de mejoramiento
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tabla-a.color-acento-contenido
@@ -503,13 +503,13 @@
               p Quien ejecuta la acción directamente. Puede haber más de uno. Debe tener las competencias técnicas y el tiempo disponible.
 
             .tarjeta.color-secundario.p-3(x="84%" y="23%" numero="+")
-              p Quien responde por el resultado final. Solo puede haber uno por acción. Aprueba el trabajo del responsible y rinde cuentas ante la dirección.
+              p Quien responde por el resultado final. Solo puede haber uno por acción. Aprueba el trabajo del responsable y rinde cuentas ante la dirección.
 
             .tarjeta.color-secundario.p-3(x="15%" y="75%" numero="+")
-              p A quien se consulta antes o durante la ejecución. Provee criterios especializados. Comunicación bidireccional.
+              p A quien se informa del avance y resultados. Comunicación unidireccional. No participa en la ejecución.
             
             .tarjeta.color-secundario.p-3(x="84%" y="75%" numero="+")
-              p A quien se informa del avance y resultados. Comunicación unidireccional. No participa en la ejecución.
+              p A quien se consulta antes o durante la ejecución. Provee criterios especializados. Comunicación bidireccional.
         .d-block.d-lg-none
           figure
             img(src='@/assets/curso/Temas/tema4/img18_1.svg', alt='Matriz RACI para dispositivos móviles')

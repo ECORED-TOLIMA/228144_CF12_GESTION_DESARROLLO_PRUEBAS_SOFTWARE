@@ -40,7 +40,7 @@
               .col-4
                 img(src='@/assets/curso/Temas/tema1/img5.svg' alt="Imagen decorativa")
             h5.text-center Calidad del proceso
-            p.text-center.mb-0 Asegura la madurez del desarrollo, mediante modelos como CMMI o ISO 15504 (SPICE)
+            p.text-center.mb-0 Asegura la madurez del desarrollo, mediante modelos como CMMI o ISO 15504 (SPICE).
           
       .col-lg-3.col-6.mb-4.mb-lg-4.order-1.order-lg-2
         figure
@@ -144,7 +144,7 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-9.order-2.order-lg-1
-        p.mb-3 Para garantizar la integridad en entornos empresariales, las pruebas de seguridad y protección resultan fundamentales para resguardar la propiedad intelectual y el código. Esto incluye la protección de estructura en hojas y libros para evitar que terceros alteren el modelado.
+        p.mb-3 Para garantizar la integridad en entornos empresariales, las pruebas de seguridad y protección resultan fundamentales para resguardar la propiedad intelectual y el código. Esto incluye la protección de estructura en hojas y libros para evitar que terceros alteren el modelado, sumado a una correcta configuración de la seguridad de macros que restrinja su ejecución a entornos de confianza, previniendo así cualquier riesgo informático.
         p.mb-0 A continuación, se sintetizan los principales atributos evaluados en las pruebas no funcionales, junto con las herramientas o técnicas empleadas y su objetivo dentro del programa:
       .col-lg-3.col-6.mb-4.mb-lg-0.order-1.order-lg-2
         figure
@@ -273,7 +273,7 @@
                 td Freemium / Open Source
               tr
                 td
-                  .text-bold PJenkins / GitHub Actions
+                  .text-bold Jenkins / GitHub Actions
                 td Integración continua (CI/CD) y automatización de pipelines.
                 td Open Source / Incluido
               tr(style="background-color: #F3F9FF;")

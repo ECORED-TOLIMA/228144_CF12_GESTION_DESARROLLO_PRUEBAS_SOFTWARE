@@ -3,7 +3,7 @@ export default {
     Name:
       'Calidad de <em>software</em>: evaluación, aprendizaje y mejora continua',
     Description:
-      'Este componente desarrolla la evaluación de la calidad del <em>software</em>, mediante control de calidad, herramientas de pruebas y documentación de hallazgos. Incluye la verificación de requisitos no funcionales como seguridad, desempeño y confiabilidad, así como la gestión de lecciones aprendidas y la formulación de planes de mejora con acciones correctivas, preventivas y seguimiento.',
+      'Este componente desarrolla la evaluación de la calidad del <em>software</em>, mediante control de calidad, herramientas de pruebas y documentación de hallazgos. Incluye la verificación de requisitos no funcionales como seguridad, desempeño y confiabilidad, así como la gestión de lecciones aprendidas y la formulación de planes de mejora con acciones correctivas, preventivas y de seguimiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
